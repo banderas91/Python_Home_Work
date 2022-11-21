@@ -17,49 +17,47 @@ def show_main_menu():
 
 
 def show_surname():
-    while True:
-        surname = input('Введите фамилию: ')
-        if surname == '': break
-        else:
-            return surname
-    return None
+    while True:  
+        surname = input("Введите фамилию ")  
+        if len(surname)!=0:  
+            return surname  
+        else:  
+            print("Пожалуйста, введите фамилию")   
 
 
 def show_name():
-    while True:
-        name = input('Введите имя: ')
-        if name == '':
-            break
-        else:
-            return name
-    return None
+    while True: 
+        name = input("Введите имя ")  
+        if len(name)!=0:  
+            return name  
+        else:  
+            print("Пожалуйста, введите имя ") 
 
 
 def show_telephone():
     while True:
-        telephone = input('Введите телефон: ')
-        if telephone == '':
-            break
-        else:
-            return telephone
-    return None
+        telephone = input("Введите телефон  ")  
+        # if not telephone.isdigit():  
+        return telephone
+        # else:
+        #     print("Вводите только цифры")  
+             
 
 
 def show_description():
     while True:
         description = input('Введите описание: ')
-        if description == '':
-            break
-        else:
-            return description
-    return None
+        if len(description)!=0:  
+            return description  
+        else:  
+            print("Пожалуйста, введите описание ")
+        
 
 
 def show_filename():
     while True:
         filename = input('Введите имя файла ')
-        if filename == '':
-            break
-        else:
-            return filename
-    return None
+        if len(filename)!=0:  
+            return filename  
+        else:  
+            print("Пожалуйста, имя файла ")

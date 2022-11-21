@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?><phonebook>
 <Entry>
-<surname>Васильев</surname>
-<name>Андрей</name>
-<telephone>21345е343</telephone>
-<description>йййййй</description>
-</Entry>
-<Entry>
-<surname>Костин</surname>
-<name>Сергей</name>
-<telephone>1111111111</telephone>
-<description>кто-то</description>
+<'surname>Конычев</'surname>
+<name>Антон</name>
+<telephone>099121</telephone>
+<description>Привет</description>
 </Entry>
 </phonebook>
