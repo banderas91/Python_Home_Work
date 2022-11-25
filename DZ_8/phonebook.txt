@@ -1,0 +1,4 @@
+{'surname': 'вап', 'name': 'ыф', 'telephone': 'ыф', 'description': 'ыфвы'}
+{'surname': 'барабашкин', 'name': 'Андрей', 'telephone': '453423', 'description': 'блаблабла'}
+{'surname': 'Колмыков', 'name': 'Игорь', 'telephone': '435543', 'description': 'блабла'}
+{'surname': 'Петров', 'name': 'Максим', 'telephone': '3245', 'description': 'блабла'}
